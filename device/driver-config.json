@@ -1,0 +1,31 @@
+{
+    "leftMotor": {
+        "pins": {
+            "in1": 13,
+            "in2": 11,
+            "en": 12
+        },
+        "pwm": {
+            "base": 0,
+            "offset": 30
+        }
+    },
+    "rightMotor": {
+        "pins": {
+            "in1": 16,
+            "in2": 15,
+            "en": 35
+        },
+        "pwm": {
+            "base": 0,
+            "offset": 0
+        }
+    },
+    "speeds": {
+        "speed1": 60,
+        "speed2": 80,
+        "rotateSpeed": 100,
+        "maxSpeed": 100,
+        "turnCoefficient": 3
+    }
+}

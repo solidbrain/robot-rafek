@@ -1,0 +1,87 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Consolas, monaco, monospace;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.main > div {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.main > div > div {
+    flex: 1;
+    text-align: center;
+}
+
+.main > div > div:first-child {
+    font-weight: bold;
+    text-align: left;
+}
+
+.status-bar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.status-bar span {
+    margin-left: 5px;
+}
+
+.status-bar .hub-connection {
+    width: 16px;
+    height: 16px;
+    background-image: url('icons/world.png');
+}
+
+.status-bar .gamepad-connection {
+    width: 16px;
+    height: 16px;
+    background-image: url('icons/controller_error.png');
+}
+
+.status-bar .lan-connection {
+    width: 16px;
+    height: 16px;
+}
+
+.status-bar .hub-connection.connected {
+    background-image: url('icons/world_link.png');
+}
+
+.status-bar .gamepad-connection.connected {
+    background-image: url('icons/controller.png');
+}
+
+.status-bar .lan-connection.connected {
+    background-image: url('icons/lan.png');
+}
+
+.gamepad {
+    background: url('icons/controller.png') no-repeat top center;
+}
+
+.keyboard {
+    background: url('icons/keyboard.png') no-repeat top center;
+}

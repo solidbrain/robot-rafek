@@ -1,0 +1,5 @@
+{
+    "iot_hub_connection_string": "<YOUR_AZURE_IOT_HUB_CONNECTION_STRING>",
+    "device_connection_string": "<YOUR_AZURE_IOT_DEVICE_CONNECTION_STRING>",
+    "device_lan_address": "<YOUR_ROBOT_ADDRESS>"
+}

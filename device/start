@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo gpio mode 1 pwm
+sudo gpio mode 24 pwm
+npm start
